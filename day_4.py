@@ -11,7 +11,6 @@ def question_one(data: str) -> int:
     res = 0
     while not hash_starts_with(res, data, '00000'):
         res += 1
-      
     print(res)
 
 
